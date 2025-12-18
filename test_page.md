@@ -1,3 +1,3 @@
 layout: page
 title: "Testing"
-permalink: /test
+permalink: /URL-PATH
