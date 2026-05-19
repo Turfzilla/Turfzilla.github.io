@@ -1,3 +1,3 @@
-layout: page
+layout: default
 title: "Testing"
 permalink: /testing
