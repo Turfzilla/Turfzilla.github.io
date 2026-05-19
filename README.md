@@ -7,6 +7,9 @@ Here’s a clean, recursive Python solution that counts gifts in “The Twelve D
 1. Total gifts received over all 12 days (which should be 364), and
 2. Per‑gift totals (e.g., how many “partridges”, “turtle doves”, etc., are received in total).
 
+<details>
+<summary>Show/Hide Python Code</summary>
+
 ```python
 # The canonical list of gifts, indexed by day (1-based in the song; 0-based here)
 GIFTS = [
@@ -77,3 +80,5 @@ print("\nPer-gift totals (across all 12 days):")
 for gift, count in totals_by_gift.items():
     print(f"  {gift}: {count}")
 ```
+
+</details>
