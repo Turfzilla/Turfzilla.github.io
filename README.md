@@ -10,7 +10,7 @@ Here’s a clean, recursive Python solution that counts gifts in “The Twelve D
 <details>
 <summary>Show/Hide Python Code</summary>
 
-```python
+### Python Code```python
 # The canonical list of gifts, indexed by day (1-based in the song; 0-based here)
 GIFTS = [
     "partridge in a pear tree",      # day 1
@@ -79,6 +79,4 @@ totals_by_gift = per_gift_totals(12)
 print("\nPer-gift totals (across all 12 days):")
 for gift, count in totals_by_gift.items():
     print(f"  {gift}: {count}")
-```
-
-</details>
+```</details>
